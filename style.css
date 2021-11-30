@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.88);
+    height: 50vh;
+}
+.container{
+    width: 800px;
+    margin: auto;
+}
+nav{
+    padding-top: 1.5rem;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+nav a:hover{
+    color: aqua;
+    text-decoration: underline white;
+}
+nav .logo{
+    padding-right: 50px ;
+}
+span{
+    font-size: 25px;
+    color: rgba(202, 181, 58, 0.644);
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+}
+button{
+    background-color: aqua;
+    border: 1px solid aqua;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+button:hover{
+    background-color: black;
+    color:aqua;
+}
